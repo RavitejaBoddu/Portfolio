@@ -1,0 +1,56 @@
+.navbar-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 2.5rem;
+    position: fixed;
+    width: 95vw;
+    z-index: 99;
+    background: linear-gradient(#2c94f5c7, rgba(255, 255, 255, 0));
+    
+}
+.navbar-left{
+    flex: 1;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+.navbar-left-name h2{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.navbar-right{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+    font-weight: 400;
+    gap: 1.7rem;
+    margin-right: 1rem;
+}
+.navbar-list{
+    flex:10;
+}
+.navbar-list ul{
+    display: flex;
+    gap: 1.5rem;
+}
+.navbar-list ul li{
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbar-list li{
+    list-style: none;
+    cursor:pointer;
+    text-decoration: none;
+}
+
+.navbar-list li:hover{
+    color: var(--orange);
+}
+
+.navbar-button{
+    flex:2;
+}

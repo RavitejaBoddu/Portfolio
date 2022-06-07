@@ -1,0 +1,29 @@
+.main-service{
+    position: relative;
+    margin-top: -13rem;
+}
+
+.dev{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+h1{
+    font-size: 3rem;
+}
+.design{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.ui{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}

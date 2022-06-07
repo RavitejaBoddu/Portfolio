@@ -1,0 +1,150 @@
+.intro{
+    height: 77vh;
+    display: flex;
+    margin-top: 12rem;
+    padding: 0 2.5rem;
+    margin-bottom: -5rem;
+}
+.intro-left{
+    display: flex;
+    position: relative;
+    flex: 1;
+    flex-direction: column;
+    gap:2rem;
+}
+.intro-name{
+    display: flex;
+    flex-direction: column;
+}
+
+.intro-name :nth-child(1){
+    color: var(--black);
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.intro-name :nth-child(2){
+    color: var(--orange);
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.intro-name p{
+    font-weight: 100;
+    font-size: 18px;
+    color: var(--gray);
+}
+
+.intro-hire{
+    width: 6rem;
+    height:2rem;
+}
+
+.intro-icons{
+    margin-top: 1.5rem;
+    display: flex;
+    gap: 1.5rem;
+}
+/* .intro-icons img{
+    transform: scale(0.5);
+}
+.intro-icons img:hover{
+    color: black;
+    cursor: pointer;
+} */
+
+
+.intro-right{
+    position: relative;
+    flex: 1;
+}
+
+.intro-right>*{
+    position: absolute;
+    z-index: 1;
+}
+
+.intro-right :nth-child(1){
+    transform: scale(0.69);
+  left: -15%;
+  top: -9%;
+}
+.intro-right :nth-child(2){
+    top: -4.6rem;
+  transform: scale(0.67);
+  left: -3rem;
+}
+
+.intro-right :nth-child(3){
+    transform: scale(1.4);
+  left: 28%;
+}
+.intro-right :nth-child(4){
+    height: 200px;
+    top: -19%;
+    left: -60%;
+    border-radius: 50%;
+}
+
+.floating-crown{
+    top: -4%;
+    left: 80%;
+    /* transform: scale(1.4); */
+}
+.floating-thumb{
+    top: 17.4rem;
+    right: 98%;
+    /* transform: scale(1.4); */
+}
+
+.blur-pink{
+    background: rgb(238, 210, 255);
+    position: absolute;
+    width: 22rem;
+    height: 14rem;
+    border-radius: 50%;
+    filter: blur(72px);
+    z-index: -9;
+    top: -18%;
+    left: 56%;
+}
+
+.blur-blue{
+    background: #c1f5ff;
+    position: absolute;
+    width: 21rem;
+    height: 11rem;
+    border-radius: 50%;
+    filter: blur(72px);
+    z-index: -9;
+    top: 17rem;
+    left: -9rem;
+}
+.in-insta{
+    color: #1f86fc;
+    transition: all 0.5s ease;
+  }
+  .in-insta:hover{
+    transform: scale(1.2);
+    color: #bc2a8d;
+  }
+  .in-fb{
+    color: #1f86fc;
+    transition: all 0.5s ease;
+  }
+  .in-fb:hover{
+    transform: scale(1.2);
+    color: #4267B2;
+  }
+  .in-github{
+    color: #1f86fc;
+    transition: all 0.5s ease;
+  }
+  .in-github:hover{
+    transform: scale(1.2);
+    color: #696767;
+  }
+
+
+
+  

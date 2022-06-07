@@ -1,0 +1,46 @@
+.footer {
+    display: flex;
+    align-items: center;
+    margin: -0.5rem -3.5rem;
+    position: relative;
+    /* margin-top: -17rem; */
+  }
+  .footer-content {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 9rem;
+    gap: 1.45rem;
+    color: white;
+  }
+  .footer-icons {
+    display: flex;
+    gap: 1.5rem;
+  }
+  .i-insta{
+    color: rgb(255, 255, 255);
+    transition: all 0.5s ease;
+  }
+  .i-insta:hover{
+    transform: scale(1.2);
+    color: #bc2a8d;
+  }
+  .i-fb{
+    color: rgb(255, 255, 255);
+    transition: all 0.5s ease;
+  }
+  .i-fb:hover{
+    transform: scale(1.2);
+    color: #4267B2;
+  }
+  .i-github{
+    color: rgb(255, 255, 255);
+    transition: all 0.5s ease;
+  }
+  .i-github:hover{
+    transform: scale(1.2);
+    color: #171515;
+  }
