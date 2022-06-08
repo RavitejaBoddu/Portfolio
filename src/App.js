@@ -10,6 +10,7 @@ import Navbar from './components/navbar/Navbar';
 import MainService from './pages/MainService/MainService';
 import React, { useContext } from 'react'
 import { themeContext } from "../src/Context";
+import ScrollToTop from './ScrollToTop';
 
 function App() {
   const theme = useContext(themeContext)
@@ -20,15 +21,19 @@ function App() {
     background: darkMode ? "black" : "",
     color: darkMode ? "white" : "",
   }}>
-  <Router>
+  <Router>  
   <Navbar />
-    <div>    
+    <div>
+    <ScrollToTop />
       <Switch>
         <Route path="/blog">
           <Blog />
         </Route>
         <Route path="/main-services">
           <MainService />
+        </Route>
+        <Route path="/home">
+          <Main />
         </Route>
         <Route path="/">
           <Main />

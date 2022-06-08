@@ -28,7 +28,9 @@ const Intro = () => {
             development, providing quality services.
           </p>
         </div>
-        <button className="intro-hire button">Hire me</button>
+        <button className="intro-hire button">
+          Hire me
+          </button>
         <div className="intro-icons">
           {/* <a href="#" >
             <img src={Github} alt="Github" />

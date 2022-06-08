@@ -14,7 +14,6 @@ const Main = () => {
         <Services />
         <Contact />
         <Footer />
-        {/* <Clock /> */}
       </div>
     ); 
 }

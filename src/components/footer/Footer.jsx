@@ -17,7 +17,7 @@ const Footer = () => {
           <Facebook className="i-fb"  size={"2.5rem"} />
           <Gitub className="i-github"  size={"2.5rem"} />
         </div>
-        <span>© 2021 `Devilshost` development. All rights reserved.</span>
+        <span>© 2022  `Devilshost` development. All rights reserved.</span>
       </div>
     </div>
   );

@@ -29,9 +29,6 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        {/* <Link to="contact" spy={true} smooth={true}>
-            <button className="navbar-button button">Contact</button>
-        </Link> */}
         <a href="#contact">
           <button className="navbar-button button">Contact</button>
         </a>

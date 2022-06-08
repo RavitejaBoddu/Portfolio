@@ -1,6 +1,30 @@
 .blog{
+    display: flex;
+    flex-direction: column;
     margin-top: 5rem;
+}
+
+.blog-container{
+    display: flex;
+ 
+}
+.blog-left-container{
+   display: flex;
+   flex: 1;
+   padding-top: 2rem;
+   /* width: 300px; */
+
+}
+.blog-left-container li{
+    /* text-decoration: none; */
+    padding-bottom: 1rem;
 }
 .updates{
     margin-left: 1rem;
+    width: 300px;
+}
+.blog-right-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    flex: 4;    
 }
