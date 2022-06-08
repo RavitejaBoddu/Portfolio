@@ -1,14 +1,14 @@
-import React from 'react'
-import Footer from '../../components/footer/Footer'
-import Services from '../../components/services/Services'
-import './MainService.css'
+import React from "react";
+import Footer from "../../components/footer/Footer";
+import Services from "../../components/services/Services";
+import "./MainService.css";
 
 const MainService = () => {
   return (
-    <div className='main-service'>
-        <Services />
-        <div>
-            <div className='dev'>
+    <div className="main-service">
+      <Services />
+      <div>
+        <div className='dev'>
                 <h1>Developer</h1>
                 <p>Html, Css, JavaScript, React</p>
             </div>
@@ -20,10 +20,10 @@ const MainService = () => {
                 <h1>UI/UX</h1>
                 <p>Lorem ispum is simpley dummy text of printing of printing Lorem</p>
             </div>           
-        </div>        
-        <Footer />
+      </div>
+      <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default MainService
+export default MainService;

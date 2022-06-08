@@ -21,8 +21,8 @@ const Intro = () => {
     <div className="intro" id="home">
       <div className="intro-left">
         <div className="intro-name">
-          <span style={{ color: darkMode ? "white" : "" }} >Hi! I Am</span>
-          <span>Raviteja Boddu</span>
+          <span className="bounce-in-top" style={{ color: darkMode ? "white" : "" }} >Hi! I Am</span>
+          <span className="bounce-in-right">Raviteja Boddu</span>
           <p>
             Frontend Developer with high knowledge in web designing and
             development, providing quality services.
@@ -41,9 +41,9 @@ const Intro = () => {
           <a href="#" >
             <img src={Instagram} alt="Instagram" />
           </a> */}
-          <Insta className="in-insta"  size={"3rem"} />
-          <LinkedIn className="in-fb"  size={"3rem"} />
-          <Gitub className="in-github" size={"3rem"} />
+          <Insta className="in-insta jello-horizontal"  size={"3rem"} />
+          <LinkedIn className="in-fb jello-horizontal"  size={"3rem"} />
+          <Gitub className="in-github jello-horizontal" size={"3rem"} />
         </div>
       </div>
       <div className="intro-right">

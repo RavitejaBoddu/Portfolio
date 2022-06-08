@@ -11,6 +11,15 @@ const Contact = () => {
   const [done, setDone] = useState(false)
   const sendEmail = (e) => {
     e.preventDefault();
+    /*
+      emailjs
+      .sendForm(
+        "YOUR_SERVICE_ID",
+        "YOUR_TEMPLATE_ID",
+        form.current,
+        "YOUR_PUBLIC_KEY"
+      )
+    */
     emailjs
       .sendForm(
         "service_yejgw2p",

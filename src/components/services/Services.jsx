@@ -14,8 +14,8 @@ const Services = () => {
   return (
     <div className="services" id="services">
       <div className="services-info">
-        <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
-        <span>services</span>
+        <span className="bounce-in-top" style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
+        <span className="bounce-in-right" >services</span>
         <p>
           You can get various services from web designing to app development.
         </p>

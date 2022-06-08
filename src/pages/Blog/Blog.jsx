@@ -12,7 +12,7 @@ const Blog = () => {
 
   return (
     <div className="blog">
-      <h1 className="updates">Updates:-</h1>
+      <h1 className="updates bounce-in-right">Updates:-</h1>
       <div className="blog-container">
         <div className="blog-left-container">
           <ul>
