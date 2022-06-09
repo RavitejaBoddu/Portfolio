@@ -11,6 +11,7 @@ import MainService from './pages/MainService/MainService';
 import React, { useContext } from 'react'
 import { themeContext } from "../src/Context";
 import ScrollToTop from './ScrollToTop';
+import About from './pages/About/About';
 
 function App() {
   const theme = useContext(themeContext)
@@ -31,6 +32,9 @@ function App() {
         </Route>
         <Route path="/main-services">
           <MainService />
+        </Route>
+        <Route path="/about">
+          <About />
         </Route>
         <Route path="/home">
           <Main />

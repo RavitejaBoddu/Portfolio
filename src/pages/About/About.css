@@ -1,0 +1,101 @@
+.about {
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-left-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    position: relative;
+    text-align:left;
+    padding: 1rem;
+    padding-top: 2rem;
+    margin: 3rem;
+    background: rgb(245, 241, 235);
+}
+
+.about-name {
+    font-size: 2.3rem;
+    /* position: absolute;
+    top: -10%;
+    left: -4%; */
+}
+
+.about-qual {
+    /* position: absolute;
+    top: 2.5%;
+    left: 2%; */
+}
+
+.about-qual span {
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: rgb(151, 149, 149);
+}
+
+.about-icons {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.ab-insta {
+    color: #bc2a8d;
+    transition: all 0.5s ease;
+}
+.ab-insta:hover {
+    transform: scale(1.2); 
+}
+.ab-fb {
+    color: #4267B2;
+    transition: all 0.5s ease;
+}
+.ab-fb:hover {
+    transform: scale(1.2); 
+}
+.ab-github {
+    color: #1b1b1b;
+    transition: all 0.5s ease;
+}
+.ab-github:hover {
+    transform: scale(1.2); 
+}
+.about-right-container {
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    margin: 1rem;
+}
+.anime-slides{
+    margin-top: 2rem;
+}
+
+.swiper {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    height: 400px;
+  }
+  
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    height:400px;
+    width:300px;
+    border-radius: 12%;
+    
+  }
