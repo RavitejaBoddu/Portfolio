@@ -92,8 +92,9 @@ const About = () => {
               spaceBetween={30}
               loop={true}
               freeMode={true}
+              speed={1800}
               autoplay={{
-                delay: 1500,
+                delay: 1800,
                 disableOnInteraction: false,
               }}
               pagination={{
