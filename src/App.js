@@ -12,6 +12,7 @@ import React, { useContext } from 'react'
 import { themeContext } from "../src/Context";
 import ScrollToTop from './ScrollToTop';
 import About from './pages/About/About';
+import Portfolio from './pages/Portfolio/Portfolio';
 
 function App() {
   const theme = useContext(themeContext)
@@ -38,6 +39,9 @@ function App() {
         </Route>
         <Route path="/home">
           <Main />
+        </Route>
+        <Route path="/portfolio">
+          <Portfolio />
         </Route>
         <Route path="/">
           <Main />
