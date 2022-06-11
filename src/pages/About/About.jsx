@@ -143,7 +143,9 @@ const About = () => {
             </Swiper>
           </div>
         </div>
-        <div className="reading"></div>
+        <div className="reading">
+          <h2>I do love reading books!</h2>
+        </div>
         <div className="sports"></div>
       </div>
       <Footer />
